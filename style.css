@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#webWindow{
+    position: relative;
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url('https://hotelodisej.com/wp-content/uploads/bf-advanced-images/209/ALH_Odisej_exterior_aerial_07-scaled-2880x0.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #65714F;
+    /* padding: 5vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page2 h1{
+    color: #434b34;
+    font-family: kaftan Serif;
+    font-weight: 100;
+    font-size: 3.2vw;
+}
+
+.page2 h1 span{
+    font-family: kaftan Serif;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #E3E3C4;
+}
